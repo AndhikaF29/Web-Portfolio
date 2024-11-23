@@ -1,0 +1,821 @@
+.research-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.section-title {
+    color: #6c5ce7;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c5ce7;
+}
+
+.sidebar {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar-title {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    color: #a8a8a8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar-nav a:hover {
+    color: #6c5ce7;
+}
+
+.content-section {
+    background-color: #2d2d2d;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.content-section h5 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.content-section ul {
+    color: #e0e0e0;
+    padding-left: 20px;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+}
+
+.interview-findings {
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.interview-findings h6 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.interview-findings ul {
+    color: #e0e0e0;
+}
+
+/* Hover effects */
+.content-section:hover {
+    box-shadow: 0 0 15px rgba(108, 92, 231, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        margin-bottom: 20px;
+    }
+}
+
+.background-section,
+.problems-section,
+.project-goal-section {
+    background-color: #2d2d2d;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.background-section h4,
+.problems-section h4,
+.project-goal-section h4 {
+    color: #6c5ce7;
+    border-bottom: 2px solid #6c5ce7;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.background-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.problems-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.problems-section li {
+    background-color: #363636;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #6c5ce7;
+}
+
+.problems-section strong {
+    color: #6c5ce7;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.project-goal-section p {
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 4px solid #6c5ce7;
+    line-height: 1.6;
+}
+
+/* Hover effects */
+.background-section:hover,
+.problems-section li:hover,
+.project-goal-section p:hover {
+    box-shadow: 0 0 15px rgba(108, 92, 231, 0.1);
+}
+
+.define-section {
+    background-color: #2d2d2d;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.define-section h4 {
+    color: #6c5ce7;
+    border-bottom: 2px solid #6c5ce7;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.persona-card {
+    background-color: #363636;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.persona-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.persona-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #6c5ce7;
+}
+
+.persona-info h5 {
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.persona-details {
+    background-color: #2d2d2d;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.persona-details p {
+    margin-bottom: 5px;
+}
+
+.goals-section,
+.frustrations-section {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.goals-section h6,
+.frustrations-section h6 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.problem-statement {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border-left: 4px solid #6c5ce7;
+}
+
+.quote {
+    font-style: italic;
+    color: #a8a8a8;
+    padding: 15px;
+    background-color: #363636;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.quote::before {
+    content: '"';
+    color: #6c5ce7;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.quote::after {
+    content: '"';
+    color: #6c5ce7;
+    font-size: 24px;
+    margin-left: 5px;
+} 
+
+.app-framework {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.section-title {
+    color: #6c5ce7;
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c5ce7;
+}
+
+.feature-card {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.1);
+}
+
+.feature-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature-number {
+    background-color: #6c5ce7;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.feature-header h5 {
+    color: #6c5ce7;
+    margin: 0;
+    font-size: 18px;
+}
+
+.feature-content {
+    padding-left: 50px;
+}
+
+.feature-description {
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.feature-description h6 {
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.feature-description p {
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.feature-list {
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.feature-list h6 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.feature-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    color: #e0e0e0;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.feature-list li::before {
+    content: "•";
+    color: #6c5ce7;
+    position: absolute;
+    left: 0;
+}
+
+.navigation-section {
+    background-color: #2d2d2d;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.nav-item {
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.nav-item i {
+    color: #6c5ce7;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.nav-item p {
+    margin: 0;
+}
+.flow-section {
+    background: #2d2d2d;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.1);
+}
+
+.flow-title {
+    color: #6c5ce7;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.flow-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #6c5ce7;
+}
+
+.flow-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.flow-step {
+    display: flex;
+    align-items: flex-start;
+    background: rgb(44, 44, 44);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(108, 92, 231, 0.1);
+}
+
+.flow-step:hover {
+    transform: translateX(10px);
+    border-color: #6c5ce7;
+}
+
+.step-icon {
+    background: #6c5ce7;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.step-icon i {
+    color: white;
+    font-size: 24px;
+}
+
+.step-number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #363636;
+    color: #6c5ce7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #6c5ce7;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h5 {
+    color: #6c5ce7;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.step-content p {
+    color: #e0e0e0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Warna berbeda untuk setiap step tapi tetap senada dengan tema */
+.flow-step:nth-child(1) .step-icon { background: #6c5ce7; }
+.flow-step:nth-child(2) .step-icon { background: #8067e7; }
+.flow-step:nth-child(3) .step-icon { background: #9572e7; }
+.flow-step:nth-child(4) .step-icon { background: #a97de7; }
+.flow-step:nth-child(5) .step-icon { background: #bd88e7; }
+
+/* Styling untuk bagian sketsa */
+.sketches-section, .flowchart-section {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.sketches-section h5, .flowchart-section h5 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c5ce7;
+}
+
+.sketch-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.sketch-item:hover {
+    transform: translateY(-5px);
+}
+
+.sketch-item img {
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.sketch-item p {
+    text-align: center;
+    color: #555;
+    margin: 15px 0 5px;
+    font-weight: 500;
+}
+
+/* Styling khusus untuk flowchart */
+.flowchart-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.flowchart-container img {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.flowchart-description {
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    border-left: 4px solid #6c5ce7;
+}
+
+.prototype-section {
+    background: #2d2d2d;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.inspiration-card {
+    background: rgb(44, 44, 44);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(108, 92, 231, 0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.inspiration-card h5 {
+    color: #6c5ce7;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c5ce7;
+}
+
+.inspiration-text {
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+.feature-list {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.feature-list li {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.feature-list li:before {
+    content: "•";
+    color: #6c5ce7;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.inspiration-text p {
+    margin-bottom: 15px;
+}
+
+/* Hover effect */
+.inspiration-card:hover {
+    border-color: #6c5ce7;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.usability-test-section {
+    background: #2d2d2d;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.test-overview {
+    background: rgb(44, 44, 44);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(108, 92, 231, 0.1);
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+.findings-section h5 {
+    color: #6c5ce7;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6c5ce7;
+}
+
+.finding-card {
+    display: flex;
+    background: rgb(44, 44, 44);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(108, 92, 231, 0.1);
+    transition: all 0.3s ease;
+}
+
+.finding-card:hover {
+    border-color: #6c5ce7;
+    transform: translateX(10px);
+}
+
+.finding-icon {
+    background: #6c5ce7;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.finding-icon i {
+    color: white;
+    font-size: 20px;
+}
+
+.finding-content {
+    flex: 1;
+}
+
+.finding-content h6 {
+    color: #6c5ce7;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.finding-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.finding-content ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.finding-content ul li:before {
+    content: "•";
+    color: #6c5ce7;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Variasi warna untuk setiap finding card */
+.finding-card:nth-child(2n) .finding-icon {
+    background: #8067e7;
+}
+
+.finding-card:nth-child(3n) .finding-icon {
+    background: #9572e7;
+}
+
+/* Variasi warna tambahan untuk finding cards */
+.finding-card:nth-child(4) .finding-icon {
+    background: #a97de7;
+}
+
+.finding-card:nth-child(5) .finding-icon {
+    background: #bd88e7;
+}
+
+.finding-card:nth-child(6) .finding-icon {
+    background: #c993e7;
+}
+
+/* Animasi hover yang lebih halus */
+.finding-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.finding-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.2);
+}
+
+/* Memperbaiki spacing untuk list items */
+.finding-content ul li {
+    padding-left: 25px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.finding-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.prototype-button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: transparent;
+    color: #fff;
+    width: 12em; /* Sedikit lebih lebar untuk teks yang lebih panjang */
+    height: 2.9em;
+    border: #6c5ce7 0.2em solid; /* Menggunakan warna ungu tema */
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #6c5ce7; /* Menggunakan warna ungu tema */
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.2);
+}
+
+.button svg {
+    width: 1.6em;
+    margin: -0.2em 0.8em 0;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+    stroke: #fff;
+}
+
+.button:hover svg {
+    transform: translateX(5px);
+}
+
+.text {
+    margin: 0 1.5em;
+    width: 100%;
+    text-align: center;
+}
+
+/* Figma button style */
+.btn-figma {
+    background: linear-gradient(45deg, #9d4edd, #6a0dad);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 4px 15px rgba(157, 78, 221, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-figma:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(157, 78, 221, 0.4);
+    color: white;
+    background: linear-gradient(45deg, #6a0dad, #9d4edd);
+}
+
+.btn-figma i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+.prototype-section {
+    padding: 20px;
+    background: rgba(157, 78, 221, 0.1);
+    border-radius: 15px;
+    margin: 30px 0;
+}

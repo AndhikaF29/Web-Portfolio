@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Proyek UI/UX</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/research.css">
+</head>
+
+<body>
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Logo Andhika.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="s-1"> </span>
+                    <span class="s-2"> </span>
+                    <span class="s-3"> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h2>Detail app Cari Kosan</h2>
+        <img src="images/bg2.png" alt="Project UI/UX" class="img-fluid mb-4">
+        
+        <div class="background-section">
+            <h4>Latar Belakang</h4>
+            <p>
+                Dalam era digital yang semakin berkembang, kebutuhan akan informasi yang cepat dan akurat menjadi sangat penting, terutama dalam mencari tempat tinggal seperti kos-kosan. Mahasiswa, pekerja, dan masyarakat umum sering menghadapi tantangan dalam menemukan kos yang sesuai dengan kebutuhan mereka, baik dari segi harga, fasilitas, maupun lokasi.
+            </p>
+            <p>
+                Proses pencarian kosan secara manual, seperti mengunjungi tempat satu per satu atau hanya mengandalkan informasi dari papan iklan, seringkali memakan waktu, tenaga, dan biaya. Selain itu, keterbatasan informasi yang tersedia dapat menyebabkan ketidakpuasan, terutama ketika kos yang dipilih ternyata tidak sesuai ekspektasi.
+            </p>
+        </div>
+
+        <div class="problems-section">
+            <h4>Masalah</h4>
+            <ul>
+                <li>
+                    <strong>Informasi Kos yang Terbatas</strong>
+                    Banyak pencari kos kesulitan mendapatkan informasi lengkap mengenai kos-kosan, seperti harga sewa, fasilitas, dan aturan, yang sering kali hanya tersedia secara offline atau melalui media yang kurang efektif.
+                </li>
+                <li>
+                    <strong>Proses Pencarian yang Memakan Waktu</strong>
+                    Pencarian kos secara manual, seperti berkeliling area tertentu atau mencari iklan di media cetak, memakan waktu, tenaga, dan biaya yang tidak sedikit.
+                </li>
+                <li>
+                    <strong>Kurangnya Transparansi</strong>
+                    Informasi mengenai kosan sering kali tidak lengkap atau tidak akurat, sehingga pengguna harus melakukan pengecekan langsung untuk memastikan kebenaran informasi. Hal ini sering kali mengecewakan calon penghuni kos.
+                </li>
+                <li>
+                    <strong>Tidak Ada Sistem Pemesanan yang Terintegrasi</strong>
+                    Proses reservasi atau pembayaran kos sering kali dilakukan secara konvensional, yang berisiko terjadi miskomunikasi antara pemilik kos dan pencari kos.
+                </li>
+                <li>
+                    <strong>Minimnya Ulasan atau Rekomendasi</strong>
+                    Pencari kos jarang mendapatkan ulasan dari penghuni sebelumnya, sehingga mereka kesulitan mengetahui kualitas kos berdasarkan pengalaman nyata.
+                </li>
+                <li>
+                    <strong>Sulitnya Menemukan Kos Sesuai Kriteria</strong>
+                    Tidak adanya filter pencarian berdasarkan harga, fasilitas, lokasi, atau preferensi lainnya membuat pencari kos kesulitan menemukan kos yang sesuai dengan kebutuhan mereka.
+                </li>
+            </ul>
+        </div>
+
+        <div class="project-goal-section">
+            <h4>Project Goal</h4>
+            <p>
+                Membuat aplikasi yang mempermudah pencari kos mendapatkan informasi lengkap, transparan, dan relevan secara cepat, serta menghubungkan langsung dengan pemilik kos untuk proses reservasi yang praktis.
+            </p>
+        </div>
+
+        <div class="research-section p-4">
+            <h4 class="section-title">01 / Empathize - Exploring the User's Needs</h4>
+            
+            <div class="row mt-4">
+                <!-- Overview Column -->
+                <div class="col-md-3">
+                    <div class="sidebar">
+                        <h5 class="sidebar-title">Overview</h5>
+                        <ul class="sidebar-nav">
+                            <li><a href="#research">Research Approach</a></li>
+                            <li><a href="#interviews">Customer Interviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Content Column -->
+                <div class="col-md-9">
+                    <div class="content-section" id="research">
+                        <h5>Research Approach</h5>
+                        <p>Untuk memahami kebutuhan dan permasalahan pengguna yang mencari kosan, saya memulai dengan wawancara pengguna langsung.</p>
+                        
+                        <p class="mt-3">Tujuan dari proses riset ini adalah sebagai berikut:</p>
+                        <ul>
+                            <li>Menjelajahi dan mengidentifikasi pola bagaimana peserta mencari kosan.</li>
+                            <li>Mengidentifikasi permasalahan dan kebutuhan yang belum terpenuhi saat mereka mencari kosan.</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-section" id="interviews">
+                        <h5>Customer Interviews</h5>
+                        <p>Saya merekrut 5 peserta yang baru mencari atau pindah ke kosan dalam 1 bulan terakhir. Berikut adalah ringkasan pengalaman mereka:</p>
+                        
+                        <div class="interview-findings">
+                            <h6>Kebutuhan dan Preferensi Kosan</h6>
+                            <ul>
+                                <li>Semua peserta lebih memilih mencari kosan secara online</li>
+                                <li>4 dari 5 peserta mengutamakan lokasi dekat tempat kerja/kampus</li>
+                                <li>Harga sebagai faktor utama, diikuti fasilitas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="define-section">
+            <h4>02 / Define - Establishing the User's Needs and Problems</h4>
+            
+            <div class="overview-card">
+                <h5>Overview</h5>
+                <p>
+                    Berdasarkan wawancara, ditemukan pola di antara peserta bahwa mereka menginginkan kosan yang sesuai kebutuhan mereka, tetapi sering terhalang oleh kurangnya informasi yang akurat, keterbatasan anggaran, dan sulitnya membandingkan pilihan. Selain itu, mereka yang pernah mengalami pengalaman buruk dengan kos sebelumnya cenderung lebih berhati-hati dalam memilih kosan baru.
+                </p>
+            </div>
+
+            <div class="persona-card">
+                <div class="persona-header">
+                    <img src="images/persona1.jpeg" alt="Faturohman fahrizi" class="persona-image">
+                    <div class="persona-info">
+                        <h5>Persona: Faturohman fahrizi</h5>
+                        <p>Mahasiswa tingkat akhir yang baru saja pindah ke kota untuk menyelesaikan tugas akhirnya. Sebagai orang yang mandiri dan suka efisiensi, Raka selalu mencari cara praktis untuk menyelesaikan sesuatu, termasuk mencari kosan.</p>
+                    </div>
+                </div>
+
+                <div class="persona-details">
+                    <h6>Tentang Faturohman fahrizi:</h6>
+                    <p><strong>Usia:</strong> 22 tahun</p>
+                    <p><strong>Status:</strong> Mahasiswa semester akhir</p>
+                    <p><strong>Lokasi:</strong> Bandung</p>
+                    <p><strong>Kepribadian:</strong> Praktis, hemat, suka riset sebelum mengambil keputusan</p>
+                </div>
+
+                <div class="goals-section">
+                    <h6>Tujuan dan Motivasi:</h6>
+                    <ul>
+                        <li>Menemukan kosan yang dekat dengan kampusnya dengan harga terjangkau.</li>
+                        <li>Memastikan kosan memiliki fasilitas lengkap seperti WiFi, kamar mandi dalam, dan dapur bersama.</li>
+                        <li>Menghindari pengalaman buruk seperti fasilitas yang tidak sesuai atau pemilik kos yang tidak ramah.</li>
+                    </ul>
+                </div>
+
+                <div class="frustrations-section">
+                    <h6>Frustrasi dan Tantangan:</h6>
+                    <ul>
+                        <li>Informasi di platform online sering tidak sesuai dengan kenyataan.</li>
+                        <li>Sulit membandingkan kosan yang satu dengan lainnya secara cepat dan efisien.</li>
+                        <li>Ulasan dari pengguna lain kadang kurang dipercaya atau tidak cukup detail.</li>
+                        <li>Beberapa kosan populer terlalu mahal untuk anggarannya.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="problem-statements">
+                <h5>Problem Statements:</h5>
+                
+                <div class="problem-statement">
+                    <p>Raka kesulitan mendapatkan informasi yang lengkap dan akurat tentang kosan.</p>
+                    <div class="quote">
+                        Saya ingin tahu detail kosan sebelum mengunjungi, tapi seringkali informasi di platform berbeda dengan aslinya.
+                    </div>
+                </div>
+
+                <div class="problem-statement">
+                    <p>Raka merasa frustasi dengan proses pencarian yang memakan waktu dan biaya.</p>
+                    <div class="quote">
+                        Saya harus keliling kota hanya untuk memastikan kosannya sesuai kebutuhan.
+                    </div>
+                </div>
+
+                <div class="problem-statement">
+                    <p>Raka bingung memilih kosan karena sulitnya membandingkan fasilitas dan harga.</p>
+                    <div class="quote">
+                        Ada banyak pilihan kos, tapi tidak tahu mana yang benar-benar terbaik untuk saya.
+                    </div>
+                </div>
+
+                <div class="problem-statement">
+                    <p>Raka ingin memastikan ulasan pengguna sebelumnya dapat dipercaya dan relevan.</p>
+                    <div class="quote">
+                        Saya butuh ulasan yang jujur, bukan sekadar bintang atau komentar pendek.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-framework">
+            <h4 class="section-title">03 / Kerangka Aplikasi Cari Kosan</h4>
+
+            <!-- Tambahkan bagian sketsa di sini -->
+            <div class="sketches-section mb-5">
+                <h5>Sketsa Awal & Wireframe</h5>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="sketch-item">
+                            <img src="images/coretan1.jpeg" alt="Sketsa halaman utama" class="img-fluid">
+                            <p class="mt-2">Sketsa halaman utama aplikasi</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="sketch-item">
+                            <img src="images/coretan2.jpeg" alt="Sketsa detail kosan" class="img-fluid">
+                            <p class="mt-2">Sketsa halaman detail profil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tambahkan bagian flowchart di sini -->
+            <div class="flowchart-section mb-5">
+                <h5>Flowchart Aplikasi</h5>
+                <div class="flowchart-container">
+                    <img src="images/flowchart.png" alt="Flowchart aplikasi" class="img-fluid">
+                </div>
+                <div class="flowchart-description mt-3">
+                    <p>Flowchart di atas menggambarkan alur kerja aplikasi dari mulai pencarian hingga proses booking kosan.</p>
+                </div>
+            </div>
+
+            <!-- Kosan Terdekat -->
+            <div class="feature-card">
+                <div class="feature-header">
+                    <span class="feature-number">1</span>
+                    <h5>Kosan Terdekat</h5>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <h6>Deskripsi:</h6>
+                        <p>Fitur lokasi berbasis GPS untuk menampilkan kosan di sekitar pengguna.</p>
+                    </div>
+                    <div class="feature-list">
+                        <h6>Fitur Utama:</h6>
+                        <ul>
+                            <li>Deteksi otomatis lokasi pengguna saat aplikasi dibuka</li>
+                            <li>Tampilan peta interaktif dengan pin lokasi kosan</li>
+                            <li>Daftar kosan berdasarkan jarak terdekat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter Pencarian -->
+            <div class="feature-card">
+                <div class="feature-header">
+                    <span class="feature-number">2</span>
+                    <h5>Filter Pencarian</h5>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <h6>Deskripsi:</h6>
+                        <p>Sistem pencarian dengan berbagai kriteria untuk memudahkan pengguna menemukan kosan yang sesuai.</p>
+                    </div>
+                    <div class="feature-list">
+                        <h6>Fitur Utama:</h6>
+                        <ul>
+                            <li>Filter berdasarkan:
+                                <ul>
+                                    <li>Rentang harga</li>
+                                    <li>Fasilitas (WiFi, AC, kamar mandi dalam, dll.)</li>
+                                    <li>Jenis kos (putra, putri, campur)</li>
+                                    <li>Durasi sewa (bulanan, tahunan)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detail Produk -->
+            <div class="feature-card">
+                <div class="feature-header">
+                    <span class="feature-number">3</span>
+                    <h5>Detail Produk</h5>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <h6>Deskripsi:</h6>
+                        <p>Informasi lengkap mengenai kosan yang dipilih.</p>
+                    </div>
+                    <div class="feature-list">
+                        <h6>Fitur Utama:</h6>
+                        <ul>
+                            <li>Informasi detail kamar dan fasilitas</li>
+                            <li>Galeri foto kosan</li>
+                            <li>Ulasan dan rating dari penghuni sebelumnya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking & Pembayaran -->
+            <div class="feature-card">
+                <div class="feature-header">
+                    <span class="feature-number">4</span>
+                    <h5>Booking & Pembayaran</h5>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-description">
+                        <h6>Deskripsi:</h6>
+                        <p>Sistem pemesanan dan pembayaran terintegrasi.</p>
+                    </div>
+                    <div class="feature-list">
+                        <h6>Fitur Utama:</h6>
+                        <ul>
+                            <li>Booking:
+                                <ul>
+                                    <li>Pemesanan kamar langsung dari aplikasi</li>
+                                    <li>Penjadwalan kunjungan</li>
+                                </ul>
+                            </li>
+                            <li>Pembayaran Online:
+                                <ul>
+                                    <li>Integrasi e-wallet dan transfer bank</li>
+                                    <li>Opsi pembayaran DP atau pembayaran penuh</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alur Penggunaan sebagai bagian dari section 03 -->
+            <div class="flow-section mt-5">
+                <h5 class="flow-title">Alur Penggunaan Aplikasi</h5>
+                <div class="flow-description mb-4">
+                </div>
+                <div class="flow-steps">
+                    <div class="flow-step">
+                        <div class="step-icon">
+                            <span class="step-number">1</span>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="step-content">
+                            <h5>Pencarian Awal</h5>
+                            <p>Pengguna membuka aplikasi dan langsung melihat daftar kosan terdekat berdasarkan lokasi mereka saat ini.</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="step-icon">
+                            <span class="step-number">2</span>
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <div class="step-content">
+                            <h5>Penyaringan</h5>
+                            <p>Gunakan filter pencarian untuk menyesuaikan pilihan sesuai preferensi (harga, fasilitas, jenis kos, dll).</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="step-icon">
+                            <span class="step-number">3</span>
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="step-content">
+                            <h5>Eksplorasi Detail</h5>
+                            <p>Pilih kosan yang diinginkan untuk melihat informasi lengkap, termasuk detail produk, galeri foto, dan ulasan penghuni sebelumnya.</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="step-icon">
+                            <span class="step-number">4</span>
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="step-content">
+                            <h5>Komunikasi</h5>
+                            <p>Hubungi pemilik kos melalui fitur chat untuk bertanya lebih detail atau melakukan negosiasi harga.</p>
+                        </div>
+                    </div>
+
+                    <div class="flow-step">
+                        <div class="step-icon">
+                            <span class="step-number">5</span>
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="step-content">
+                            <h5>Transaksi</h5>
+                            <p>Lakukan booking kosan dan selesaikan pembayaran langsung melalui aplikasi menggunakan metode pembayaran yang tersedia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prototype-section mt-5">
+            <h4 class="section-title">04 / Prototipe</h4>
+            
+            <div class="inspiration-card">
+                <h5>Inspirasi Wireframe</h5>
+                <div class="inspiration-content">
+                    <div class="inspiration-text">
+                        <p>Saat merancang wireframe untuk aplikasi Cari Kosan, saya meninjau aplikasi pencarian properti dan reservasi penginapan seperti Airbnb, Traveloka, dan OLX Kos. Aplikasi ini menunjukkan pola desain yang dikenal pengguna, seperti:</p>
+                            <li>Navigasi sederhana</li>
+                            <li>Fitur filter yang mudah diakses</li>
+                            <li>Pengalaman pencarian berbasis lokasi</li>
+                        </ul>
+                        <p class="mt-3">Namun, aplikasi tersebut biasanya tidak memiliki fitur komunikasi langsung yang interaktif antara pengguna dan pemilik kos, serta alur sederhana untuk booking dan pembayaran kos. Oleh karena itu, saya mengadaptasi elemen dari berbagai aplikasi ini dan menambahkan fitur-fitur utama sesuai kebutuhan pengguna kos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="usability-test-section mt-5">
+            <h4 class="section-title">Proses Uji Kegunaan Prototipe</h4>
+            
+            <div class="test-overview">
+                <p>Saya menguji prototipe fidelitas rendah pada 3 peserta yang memiliki pengalaman mencari kosan. Uji coba ini membantu mengidentifikasi harapan, tantangan, dan kebutuhan mereka selama menggunakan aplikasi. Setelah menjalankan prototipe untuk pertama kalinya, saya mendiskusikan berbagai ide yang muncul selama sesi desain untuk mendapatkan umpan balik tambahan.</p>
+            </div>
+            <!-- Tambahkan tombol di akhir section -->
+            <div class="prototype-button-container">
+                <a href="https://www.figma.com/proto/rYfBDYXG3C6TZG6GaX3Iys/Cari-Kosan-(tugas-Akhir-IMK)?node-id=2-1753&node-type=canvas&t=RhemugR48lYZRgnf-0&scaling=scale-down&content-scaling=fixed&page-id=2%3A31" 
+                   target="_blank" 
+                   class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                    </svg>
+                    <div class="text">
+                        Prototype
+                    </div>
+                </a>
+            </div>
+
+            <div class="findings-section">
+                <h5>Temuan Uji Kegunaan</h5>
+                
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Terlalu Banyak Informasi</h6>
+                        <ul>
+                            <li>Peserta merasa informasi di halaman pencarian terlalu banyak</li>
+                            <li>Mereka lebih memilih detail lengkap ditampilkan hanya saat membuka Halaman Detail Kosan</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Fitur "Detail Produk dan Review" Disukai</h6>
+                        <ul>
+                            <li>Peserta menyukai bagian ulasan penghuni sebelumnya dan daftar fasilitas lengkap</li>
+                            <li>Meminta fitur "Filter Ulasan" untuk menampilkan ulasan tertentu</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Fitur "Interaksi Langsung dengan Pemilik Kos</h6>
+                        <ul>
+                            <li>Peserta menyukai fitur Chat & Negoisasi, tetapi menginginkan:
+                                Indikator status (online/offline) pemilik kos.
+                                Template pesan otomatis (misalnya, "Apakah kosan ini tersedia?" atau "Apakah fasilitas AC tersedia?").
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Booking dan Pembayaran Bertahap</h6>
+                        <ul>
+                            <li>Peserta merasa proses booking dan pembayaran terlalu cepat</li>
+                            <li>Menyarankan adanya fitur Konfirmasi Booking Awal</li>
+                            <li>Opsi pembayaran setelah pemilik kos menerima permintaan</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Peta Interaktif Membantu</h6>
+                        <ul>
+                            <li>Fitur peta untuk menampilkan kosan terdekat sangat disukai</li>
+                            <li>Highlight kosan terjangkau sesuai anggaran di peta</li>
+                            <li>Informasi ringkas saat ikon kos diklik (nama, harga, jarak)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="finding-card">
+                    <div class="finding-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="finding-content">
+                        <h6>Dukungan Ekstra</h6>
+                        <ul>
+                            <li>Rekomendasi Personal berdasarkan preferensi pengguna</li>
+                            <li>Opsi untuk melihat kosan terbaik di kategori tertentu</li>
+                            <li>Bantuan khusus untuk pencari kos pertama kali di kota baru</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="portfolio.html" class="btn btn-primary mt-4">Kembali ke Portfolio</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__social">
+            <ul class="footer__social-wrapper">
+                <li>
+                    <a href="mailto:andhikafajarprayoga@gmail.com" class="footer__link">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/6285963160777" class="footer__link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/andhikafajar29" class="footer__link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer__texto">Andhika Fajar Prayoga © 2023</p>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html> 
